@@ -1,31 +1,32 @@
 export const siteConfig = {
-  name: "节日歌曲大全",
-  domain: "jieri-gequs.top",
-  description: "提供各类节日歌曲推荐、节日音乐资源，涵盖春节、中秋、国庆等传统节日音乐",
-  keywords: ["节日歌曲", "节日音乐", "传统节日歌曲", "节日歌曲推荐"],
+  name: "免费AI音乐生成工具大全",
+  domain: "free-music-ai.top",
+  description: "精选最好用的免费AI音乐生成工具，包含Suno、Udio等平台的使用教程、技巧分享和工具对比评测",
+  keywords: ["免费AI音乐", "AI音乐生成", "免费音乐制作", "AI作曲工具", "Suno AI", "Udio AI", "音乐生成器"],
   
   // 目标产品
   targetProduct: {
     name: "AndMusic.chat",
     url: "https://andmusic.chat",
-    description: "AI 音乐生成工具，一键生成专属节日歌曲"
+    description: "专业的AI音乐生成平台，支持中文歌词，一键生成高质量原创音乐"
   },
   
   // 站点主题
   theme: {
-    primaryColor: "#ef4444",
-    categories: ["春节", "中秋", "国庆", "元宵", "端午", "七夕"]
+    primaryColor: "#10b981", // 绿色
+    secondaryColor: "#059669",
+    categories: ["工具推荐", "使用教程", "技巧分享", "工具对比", "案例展示", "常见问题"]
   },
   
   // 百度推送
   baidu: {
-    siteUrl: "https://jieri-gequs.top",
+    siteUrl: "https://free-music-ai.top",
     token: "" // 待填充
   },
   
   // 关联站点（用于外链推荐）
   relatedSites: [
-    { name: "春节歌曲专题", url: "https://chunjie-music.top" },
+    { name: "节日歌曲大全", url: "https://jieri-gequs.top" },
     { name: "AI音乐生成工具", url: "https://ai-music-tools.top" },
     { name: "生日歌曲定制", url: "https://birthday-song-ai.top" }
   ]
